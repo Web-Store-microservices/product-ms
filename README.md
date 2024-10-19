@@ -24,49 +24,28 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Proyecto del curso Arquitectura Orientado a Servicio.
 
 ## Installation
-
+1. Clonar el repsotirio
 ```bash
-$ npm install
+$ https://github.com/Web-Store-microservices/product-ms.git
 ```
-
-## Running the app
-
+2. Instalar Dependencias
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+$ npm i
 ```
+3. Crear un archivo `.env` basado en el `env.template`
+4. Ejecutar migración de prisma `npx prima migrate dev`
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## Runnig the app
+5. Ejecutar `npm run start:dev`
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - Rey Perseo Cardenas Sanchez
+- Website - https://reyperseocardenas.netlify.app
+- Instagram- perseocs5
 
 ## License
 
